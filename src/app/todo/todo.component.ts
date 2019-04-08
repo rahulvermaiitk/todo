@@ -12,4 +12,21 @@ export class TodoComponent implements OnInit {
   ngOnInit() {
   }
 
+  public todoObject = [
+    {
+      id: 't-1',
+      value: 'buy books',
+      status: 'done'
+    },
+    {
+      id: 't-2',
+      value: 'buy veggies',
+      status: 'in-progress'
+    },
+    {
+      id: 't-3',
+      value: 'buy car',
+      status: 'done'
+    }
+  ]
 }
